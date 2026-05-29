@@ -1,8 +1,8 @@
 Sales Analysis Dashboard
 
-An interactive Sales Analysis Dashboard built to explore and visualize key business metrics such as revenue, profit, sales trends, and performance across categories, regions, and time periods.
+An interactive Sales Analysis Dashboard designed to explore and visualize key business metrics such as revenue, profit, sales trends, and performance across categories, regions, and time periods.
 
-The project focuses on transforming raw sales data into meaningful insights through structured analysis and reporting.
+The project focuses on transforming raw sales data into meaningful insights through structured analysis, visualization, and reporting.
 
 Features
 Sales trend analysis over time
@@ -14,18 +14,20 @@ Data cleaning and preprocessing workflow
 Interactive data exploration
 Tech Stack
 Python (Pandas, NumPy)
-Data visualization libraries (Matplotlib, Seaborn, Plotly)
-Jupyter Notebook / Python scripts
+Data Visualization (Matplotlib, Seaborn, Plotly)
+Jupyter Notebook / Python Scripts
 CSV / Excel datasets
-Optional dashboard tools such as Streamlit or Power BI (if used)
+Optional: Streamlit or Power BI (if used)
+
+
 Project Structure
 SalesAnalysisDashboard/
 │
-├── data/                Raw and processed datasets
-├── notebooks/          Jupyter notebooks for analysis
-├── dashboard/          Dashboard application files
-├── src/                Source code scripts
-├── requirements.txt    Project dependencies
+├── data/              # Raw and processed datasets
+├── notebooks/        # Jupyter notebooks for analysis
+├── dashboard/        # Dashboard application files
+├── src/              # Source code scripts
+├── requirements.txt  # Project dependencies
 └── README.md
 Installation
 
@@ -47,7 +49,7 @@ or
 
 jupyter notebook
 
-or
+or (if using Streamlit)
 
 streamlit run dashboard.py
 Key Insights
@@ -65,10 +67,8 @@ The goal of this project is to:
 Practice real-world data analysis workflows
 Build structured and interactive dashboards
 Improve data-driven decision-making skills
-Build a portfolio-ready analytics project
+Create a portfolio-ready analytics project
 Author
 
 Trevor
-https://github.com/trevorthebike
-
-License
+GitHub: https://github.com/trevorthebike
