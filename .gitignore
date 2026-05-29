@@ -1,0 +1,13 @@
+# Data (do not upload dataset)
+data/
+*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model files (optional: keep if you want recruiters to run instantly)
+# models/*.pkl
