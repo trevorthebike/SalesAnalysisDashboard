@@ -20,10 +20,10 @@ import joblib
 # DATA + MODEL LOADING
 # -----------------------------------
 def load_data():
-    model = joblib.load("sales_model.pkl")
-    feature_cols = joblib.load("feature_cols.pkl")
+    model = joblib.load("models/sales_model.pkl")
+    feature_cols = joblib.load("models/feature_cols.pkl")
 
-    df = pd.read_csv("retail_sales.csv")
+    df = pd.read_csv("data/retail_sales.csv")
 
     df["date"] = pd.to_datetime(df["date"])
     df["store_id"] = df["store_id"].astype("category")
