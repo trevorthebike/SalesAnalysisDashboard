@@ -14,7 +14,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-
+import requests
+import io
 
 # -----------------------------------
 # DATA + MODEL LOADING
@@ -22,9 +23,8 @@ import joblib
 def load_data():
     model = joblib.load("models/sales_model.pkl")
     feature_cols = joblib.load("models/feature_cols.pkl")
-
-    df = pd.read_csv("data/retail_sales.csv")
-
+    
+    df = pd.read_csv("data/retail_sales_sample.csv")
     df["date"] = pd.to_datetime(df["date"])
     df["store_id"] = df["store_id"].astype("category")
     df["item_id"] = df["item_id"].astype("category")
