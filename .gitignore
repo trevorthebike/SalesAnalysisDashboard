@@ -1,7 +1,7 @@
 # Data (do not upload dataset)
 data/
 *.csv
-
+!data/retail_sales_sample.csv
 # Python cache
 __pycache__/
 *.pyc
